@@ -268,7 +268,7 @@ def get_glibc_binaries(version, arch):
 
 
 def check_have_required_programs():
-    requiredPrograms = ["gcc", "make", "git", "readelf", "grep", "gawk", "bison", "msgfmt", "makeinfo", "autoconf"]
+    requiredPrograms = ["gcc", "make", "git", "readelf", "grep", "gawk", "bison", "autoconf"]
 
     missing = []
 
@@ -329,32 +329,33 @@ class Version(object):
 
 
 SUPPORTED_VERSIONS = [
-    Version(2, 5),
-    Version(2, 5, 1),
-    Version(2, 6),
-    Version(2, 6, 1),
-    Version(2, 7),
-    Version(2, 8),
-    Version(2, 9),
-    Version(2, 10, 2),
-    Version(2, 11, 3),
-    Version(2, 12, 2),
-    Version(2, 13),
-    Version(2, 14),
-    Version(2, 14, 1),
-    Version(2, 15),
-    Version(2, 16),
-    Version(2, 17),
-    Version(2, 18),
-    Version(2, 19),
-    Version(2, 20),
-    Version(2, 21),
-    Version(2, 22),
-    Version(2, 23),
-    Version(2, 24),
-    Version(2, 25),
-    Version(2, 26),
-    Version(2, 27),
+    # Version(2, 5),
+    # Version(2, 5, 1),
+    # Version(2, 6),
+    # Version(2, 6, 1),
+    # Version(2, 7),
+    # Version(2, 8),
+    # Version(2, 9),
+    # Version(2, 10, 2),
+    # Version(2, 11, 3),
+    # Version(2, 12, 2),
+    # Version(2, 13),
+    # Version(2, 14),
+    # Version(2, 14, 1),
+    # Version(2, 15),
+    # Version(2, 16),
+    # Version(2, 17),
+    # Version(2, 18),
+    # Version(2, 19),
+    # Version(2, 20),
+    # Version(2, 21),
+    # Version(2, 22),
+    # Version(2, 23),
+    # Version(2, 24),
+    # Version(2, 25),
+    # Version(2, 26),
+    # Version(2, 27),
+    Version(2, 31),
 ]
 
 
